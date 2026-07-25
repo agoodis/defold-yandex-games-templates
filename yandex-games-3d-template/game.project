@@ -1,0 +1,68 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 1920
+height = 1080
+high_dpi = 1
+
+[android]
+input_method = HiddenInputField
+
+[physics]
+type = 3D
+
+[html5]
+scale_mode = stretch
+wasm_streaming = 1
+show_fullscreen_button = 0
+show_made_with_defold = 0
+
+[input]
+game_binding = /input/game.input_bindingc
+repeat_delay = 0.35
+repeat_interval = 0.05
+
+[project]
+title = Yandex Games 3D
+version = 0.1.0
+dependencies#0 = https://github.com/Insality/druid/archive/refs/tags/1.2.5.zip
+dependencies#1 = https://github.com/Insality/defold-event/archive/refs/tags/19.zip
+dependencies#2 = https://github.com/Insality/defold-saver/archive/refs/tags/8.zip
+dependencies#3 = https://github.com/Insality/defold-log/archive/refs/tags/6.zip
+dependencies#4 = https://github.com/Insality/defold-lang/archive/refs/tags/5.zip
+dependencies#5 = https://github.com/Insality/defold-tweener/archive/refs/tags/6.zip
+dependencies#6 = https://github.com/Insality/defold-quest/archive/refs/tags/3.zip
+dependencies#7 = https://github.com/Insality/defold-token/archive/refs/tags/7.zip
+dependencies#8 = https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.19.0.zip
+
+[saver]
+autosave_timer = 3
+
+[log]
+level = DEBUG
+level_release = ERROR
+
+[gui]
+max_nodes = 8192
+
+[graphics]
+max_font_batches = 2048
+max_characters = 16384
+
+[collection]
+max_instances = 8192
+
+[sprite]
+max_count = 6144
+
+[label]
+max_count = 2600
+
+[render]
+clear_color_red = 0.160156
+clear_color_green = 0.164063
+clear_color_blue = 0.183594
