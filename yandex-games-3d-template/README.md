@@ -10,6 +10,6 @@
 - вращение куба и управление светом мышью или касанием;
 - физика типа `3D`;
 - `defold-yagames`;
-- Druid, Event, Saver, Log, Lang, Tweener, Quest и Token.
+- Druid, Event, Saver, Log, Lang, Tweener, Quest, Token и Automation Bridge.
 
 После создания проекта выберите `Project -> Fetch Libraries`.

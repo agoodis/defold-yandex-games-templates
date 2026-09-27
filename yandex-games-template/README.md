@@ -13,6 +13,7 @@
 - Tweener
 - Quest
 - Token
+- Automation Bridge
 
 После создания проекта выберите `Project -> Fetch Libraries`.
 
